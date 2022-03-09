@@ -2,6 +2,8 @@
 
 A very beautiful color picker, supports input and output of multiple color formats, and supports gradient color selection.
 
+This is a fork of https://github.com/aesoper101/vue3-colorpicker, to add a bug fix (when the original author doesn't respond about PR).
+
 Note: This document is for Vue3ColorPicker v2. If you are looking for an older versions, refer to the v1 branches.The v2 version is a destructive update, and some functions in v1 are no longer supported. Please use it with caution
 
 [Live Demo](https://aesoper101.github.io/vue3-colorpicker/)
@@ -11,13 +13,13 @@ Note: This document is for Vue3ColorPicker v2. If you are looking for an older v
 ## Installation
 
 ```
-yarn add vue3-colorpicker
+yarn add @fairwiz/vue3-colorpicker
 ```
 
 OR
 
 ```
-npm install vue3-colorpicker
+npm install @fairwiz/vue3-colorpicker
 ```
 
 ## How to use
@@ -25,8 +27,8 @@ npm install vue3-colorpicker
 ### The first step is global registration
 
 ```
-import Vue3ColorPicker from "vue3-colorpicker";
-import "vue3-colorpicker/style.css";
+import Vue3ColorPicker from "@fairwiz/vue3-colorpicker";
+import "@fairwiz/vue3-colorpicker/style.css";
 
 createApp(App)
   .use(router)
@@ -37,8 +39,8 @@ createApp(App)
 OR
 
 ```vue3
-import { ColorPicker } from "vue3-colorpicker";
-import "vue3-colorpicker/style.css";
+import { ColorPicker } from "@fairwiz/vue3-colorpicker";
+import "@fairwiz/vue3-colorpicker/style.css";
 
 export default defineComponent({
 components: { ColorPicker },

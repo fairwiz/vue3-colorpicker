@@ -1,17 +1,17 @@
 {
-  "name": "vue3-colorpicker",
-  "version": "2.0.4",
+  "name": "@fairwiz/vue3-colorpicker",
+  "version": "2.0.5",
   "main": "dist/index.es.js",
   "types": "dist/types/index.d.ts",
   "author": "aesoper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aesoper101/vue3-colorpicker/issues"
+    "url": "https://github.com/fairwiz/vue3-colorpicker/issues"
   },
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/aesoper101/vue3-colorpicker#readme",
+  "homepage": "https://github.com/fairwiz/vue3-colorpicker#readme",
   "scripts": {
     "dev": "vite",
     "build": "rimraf dist && vue-tsc --noEmit && vite build",
@@ -86,9 +86,9 @@
     "stylelint-no-unsupported-browser-features": "^5.0.1",
     "stylelint-order": "^4.1.0",
     "typescript": "^4.3.2",
-    "vite": "^2.6.13",
+    "vite": "<2.8",
     "vite-plugin-dts": "^0.9.3",
     "vue-loader": "^16.8.3",
-    "vue-tsc": "^0.2.2"
+    "vue-tsc": "^0.32.1"
   }
 }
